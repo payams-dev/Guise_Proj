@@ -1,0 +1,21 @@
+{
+  "formulaVersion": 1,
+  "historyRounds": 3,
+  "levelCoefficient": 0.25,
+  "baseLevel": 3,
+  "maxLevelOffset": 8,
+  "recoveryWindow": 3,
+  "repetitionThreshold": 3,
+  "weights": {
+    "C": 4,
+    "W": 2,
+    "V": 1,
+    "R": 3,
+    "A": 2,
+    "E": 2,
+    "T": -2,
+    "M": -2,
+    "B": -4,
+    "D": -3
+  }
+}

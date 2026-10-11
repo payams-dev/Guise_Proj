@@ -1,0 +1,110 @@
+[
+  {
+    "id": "trumpet",
+    "displayName": "Trumpet",
+    "statWeights": [
+      0.35,
+      0.15,
+      0.1,
+      0.1,
+      0.3
+    ],
+    "basicAttackId": "blast",
+    "musicalEvidence": [
+      "brass"
+    ]
+  },
+  {
+    "id": "saxophone",
+    "displayName": "Saxophone",
+    "statWeights": [
+      0.1,
+      0.3,
+      0.35,
+      0.15,
+      0.1
+    ],
+    "basicAttackId": "riff",
+    "musicalEvidence": []
+  },
+  {
+    "id": "trombone",
+    "displayName": "Trombone",
+    "statWeights": [
+      0.15,
+      0.35,
+      0.1,
+      0.3,
+      0.1
+    ],
+    "basicAttackId": "blast",
+    "musicalEvidence": [
+      "brass"
+    ]
+  },
+  {
+    "id": "guitar",
+    "displayName": "Guitar",
+    "statWeights": [
+      0.15,
+      0.5,
+      0.1,
+      0.15,
+      0.1
+    ],
+    "basicAttackId": "lick",
+    "musicalEvidence": []
+  },
+  {
+    "id": "piano",
+    "displayName": "Piano",
+    "statWeights": [
+      0.1,
+      0.15,
+      0.3,
+      0.35,
+      0.1
+    ],
+    "basicAttackId": "chord",
+    "musicalEvidence": []
+  },
+  {
+    "id": "bass",
+    "displayName": "Bass",
+    "statWeights": [
+      0.35,
+      0.35,
+      0.1,
+      0.1,
+      0.1
+    ],
+    "basicAttackId": "groove",
+    "musicalEvidence": []
+  },
+  {
+    "id": "percussion",
+    "displayName": "Percussion",
+    "statWeights": [
+      0.1,
+      0.35,
+      0.1,
+      0.1,
+      0.35
+    ],
+    "basicAttackId": "fill",
+    "musicalEvidence": []
+  },
+  {
+    "id": "virtuoso",
+    "displayName": "Virtuoso",
+    "statWeights": [
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2
+    ],
+    "basicAttackId": "hymn",
+    "musicalEvidence": []
+  }
+]

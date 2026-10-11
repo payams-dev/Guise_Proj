@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "test_saxophone",
+  "name": "TEST Saxophone",
+  "race": "Saxophone",
+  "level": 3,
+  "hp": 60,
+  "mp": 33,
+  "basicAttack": "riff",
+  "stats": {
+    "str": 2,
+    "vit": 7,
+    "mag": 8,
+    "agi": 4,
+    "luk": 2
+  },
+  "affinities": {},
+  "battleSkills": [
+    "riff",
+    "modal_motif",
+    "chop_buster"
+  ],
+  "learnableSkills": []
+}

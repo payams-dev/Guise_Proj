@@ -1,0 +1,230 @@
+[
+  {
+    "file": "IMPLEMENTATION_REPORT.md",
+    "change": "added"
+  },
+  {
+    "file": "README_SLICE.md",
+    "change": "added"
+  },
+  {
+    "file": "RUN_GUISE.bat",
+    "change": "added"
+  },
+  {
+    "file": "RUN_GUISE.sh",
+    "change": "added"
+  },
+  {
+    "file": "VALIDATION.md",
+    "change": "added"
+  },
+  {
+    "file": "assets/arrangements/arrangements.json",
+    "change": "added"
+  },
+  {
+    "file": "assets/demons/Ambassador.JSON",
+    "change": "modified"
+  },
+  {
+    "file": "assets/demons/JJJ.JSON",
+    "change": "modified"
+  },
+  {
+    "file": "assets/demons/Sirabhorn.JSON",
+    "change": "modified"
+  },
+  {
+    "file": "assets/demons/demonTemplate.JSON",
+    "change": "modified"
+  },
+  {
+    "file": "assets/demons/dummy.JSON",
+    "change": "modified"
+  },
+  {
+    "file": "assets/moves/status.JSON",
+    "change": "modified"
+  },
+  {
+    "file": "assets/player/player.JSON",
+    "change": "modified"
+  },
+  {
+    "file": "assets/prototype/audio/confirm.wav",
+    "change": "added"
+  },
+  {
+    "file": "assets/prototype/demons/test_bass.json",
+    "change": "added"
+  },
+  {
+    "file": "assets/prototype/demons/test_saxophone.json",
+    "change": "added"
+  },
+  {
+    "file": "assets/prototype/dungeon.json",
+    "change": "added"
+  },
+  {
+    "file": "assets/prototype/groove-rules.json",
+    "change": "added"
+  },
+  {
+    "file": "assets/prototype/judgment-desire.json",
+    "change": "added"
+  },
+  {
+    "file": "assets/prototype/slice.json",
+    "change": "added"
+  },
+  {
+    "file": "assets/races/races.json",
+    "change": "added"
+  },
+  {
+    "file": "core/build.gradle",
+    "change": "modified"
+  },
+  {
+    "file": "core/src/main/java/band/ArrangementDefinition.java",
+    "change": "added"
+  },
+  {
+    "file": "core/src/main/java/band/BandComposition.java",
+    "change": "added"
+  },
+  {
+    "file": "core/src/main/java/battle/Affinity.java",
+    "change": "modified"
+  },
+  {
+    "file": "core/src/main/java/battle/BattleController.java",
+    "change": "modified"
+  },
+  {
+    "file": "core/src/main/java/battle/BattleEntity.java",
+    "change": "modified"
+  },
+  {
+    "file": "core/src/main/java/battle/BattleResult.java",
+    "change": "added"
+  },
+  {
+    "file": "core/src/main/java/battle/BattleScreen.java",
+    "change": "modified"
+  },
+  {
+    "file": "core/src/main/java/battle/DemonDefinition.java",
+    "change": "modified"
+  },
+  {
+    "file": "core/src/main/java/battle/Move.java",
+    "change": "modified"
+  },
+  {
+    "file": "core/src/main/java/battle/PressTurnEngine.java",
+    "change": "modified"
+  },
+  {
+    "file": "core/src/main/java/battle/SliceBattle.java",
+    "change": "added"
+  },
+  {
+    "file": "core/src/main/java/com/payamsdev/oldsona/OldsonaGame.java",
+    "change": "modified"
+  },
+  {
+    "file": "core/src/main/java/content/ContentCatalog.java",
+    "change": "added"
+  },
+  {
+    "file": "core/src/main/java/content/ContentFiles.java",
+    "change": "added"
+  },
+  {
+    "file": "core/src/main/java/content/RaceDefinition.java",
+    "change": "added"
+  },
+  {
+    "file": "core/src/main/java/content/StatusDefinition.java",
+    "change": "added"
+  },
+  {
+    "file": "core/src/main/java/dev/DemonConfig.java",
+    "change": "modified"
+  },
+  {
+    "file": "core/src/main/java/dev/DemonDocument.java",
+    "change": "added"
+  },
+  {
+    "file": "core/src/main/java/dungeon/GridMap.java",
+    "change": "added"
+  },
+  {
+    "file": "core/src/main/java/game/GameSession.java",
+    "change": "added"
+  },
+  {
+    "file": "core/src/main/java/groove/GrooveCalculator.java",
+    "change": "added"
+  },
+  {
+    "file": "core/src/main/java/judgment/JudgmentEvaluator.java",
+    "change": "added"
+  },
+  {
+    "file": "core/src/main/java/judgment/JudgmentState.java",
+    "change": "added"
+  },
+  {
+    "file": "core/src/main/java/screens/SliceScreen.java",
+    "change": "added"
+  },
+  {
+    "file": "core/src/test/java/slice/AffinityResolutionTest.java",
+    "change": "added"
+  },
+  {
+    "file": "core/src/test/java/slice/ContentBandTest.java",
+    "change": "added"
+  },
+  {
+    "file": "core/src/test/java/slice/DemonDocumentTest.java",
+    "change": "added"
+  },
+  {
+    "file": "core/src/test/java/slice/EndToEndTest.java",
+    "change": "added"
+  },
+  {
+    "file": "core/src/test/java/slice/GrooveTest.java",
+    "change": "added"
+  },
+  {
+    "file": "core/src/test/java/slice/SliceCombatTest.java",
+    "change": "added"
+  },
+  {
+    "file": "core/src/test/java/slice/StatusInterruptionTest.java",
+    "change": "added"
+  },
+  {
+    "file": "docs/GUISE_Band_Groove_Vertical_Slice_Specification.md",
+    "change": "added"
+  },
+  {
+    "file": "lwjgl3/src/test/java/screens/DesktopSmoke.java",
+    "change": "added"
+  },
+  {
+    "file": "tools/package-local.py",
+    "change": "added"
+  },
+  {
+    "file": "tools/test-local.sh",
+    "change": "added"
+  }
+]

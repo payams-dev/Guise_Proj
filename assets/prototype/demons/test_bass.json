@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "test_bass",
+  "name": "TEST Bass",
+  "race": "Bass",
+  "level": 3,
+  "hp": 66,
+  "mp": 18,
+  "basicAttack": "groove",
+  "stats": {
+    "str": 8,
+    "vit": 8,
+    "mag": 3,
+    "agi": 2,
+    "luk": 2
+  },
+  "affinities": {},
+  "battleSkills": [
+    "groove",
+    "blow"
+  ],
+  "learnableSkills": []
+}

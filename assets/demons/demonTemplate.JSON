@@ -1,0 +1,55 @@
+{
+  "id": "template_id",
+  "name": "Template Name",
+  "race": "Race",
+  "level": 1,
+  "hp": 100,
+  "mp": 99,
+  "stats": {
+    "str": 99,
+    "vit": 99,
+    "mag": 99,
+    "agi": 99,
+    "luk": 99
+  },
+  "battleSkills": [
+    "soul_motif",
+    "modal_motif"
+  ],
+  "elements": {
+    "physical": "Neutral",
+    "soul": "Neutral",
+    "modal": "Neutral",
+    "fusion": "Neutral",
+    "bebop": "Neutral",
+    "harmony": "Neutral",
+    "dissonance": "Neutral",
+    "groove": "Neutral"
+  },
+  "ailments": {
+    "confusion": "Neutral",
+    "charm": "Neutral",
+    "poison": "Neutral",
+    "sleep": "Neutral",
+    "seal": "Neutral"
+  },
+  "learnableSkills": [
+    {
+      "level": 1,
+      "skill": "soul_motif"
+    },
+    {
+      "level": 3,
+      "skill": "modal_motif"
+    },
+    {
+      "level": 5,
+      "skill": "soul_phrase"
+    },
+    {
+      "level": 7,
+      "skill": "modal_phrase"
+    }
+  ],
+  "schemaVersion": 1
+}

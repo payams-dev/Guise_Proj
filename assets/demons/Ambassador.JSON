@@ -1,0 +1,43 @@
+{
+  "id": "ambassador",
+  "name": "Ambassador",
+  "race": "Percussion",
+  "level": 3,
+  "base_level": 3,
+  "max_skill_level": 7,
+  "hp": 66,
+  "mp": 15,
+  "basicAttack": "fill",
+  "stats": {
+    "str": 3,
+    "vit": 8,
+    "mag": 2,
+    "agi": 2,
+    "luk": 8
+  },
+  "affinities": {
+    "phys": "Neutral",
+    "soul": "Weak",
+    "modal": "Neutral",
+    "fusion": "Neutral",
+    "bebop": "Neutral",
+    "harmony": "Neutral",
+    "dissonance": "Weak"
+  },
+  "battleSkills": [
+    "fill",
+    "yeah_man",
+    "crash"
+  ],
+  "learnableSkills": [
+    {
+      "level": 4,
+      "skill": "rimshot"
+    },
+    {
+      "level": 5,
+      "skill": "time_out"
+    }
+  ],
+  "schemaVersion": 1
+}

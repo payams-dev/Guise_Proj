@@ -1,0 +1,58 @@
+[
+  {
+    "id": "testified",
+    "name": "Testified",
+    "baseDamage": 0,
+    "effectType": "move_lock",
+    "description": "Target repeats its last move until MP is depleted.",
+    "duration": 0
+  },
+  {
+    "id": "impression",
+    "name": "Impression",
+    "baseDamage": 10,
+    "effectType": "damage_over_time",
+    "description": "Target is mesmerized by modal resonance.",
+    "duration": 3
+  },
+  {
+    "id": "stank",
+    "name": "Stank",
+    "baseDamage": 5,
+    "effectType": "damage_over_time",
+    "description": "Target takes damage every turn.",
+    "duration": 3
+  },
+  {
+    "id": "rushing",
+    "name": "Rushing",
+    "baseDamage": 0,
+    "effectType": "stagger",
+    "description": "Target is unable to act temporarily.",
+    "duration": 0
+  },
+  {
+    "id": "null",
+    "name": "Null",
+    "baseDamage": 0,
+    "effectType": "null",
+    "description": "null",
+    "duration": 0
+  },
+  {
+    "id": "muted",
+    "name": "Muted",
+    "baseDamage": 0,
+    "effectType": "mute",
+    "duration": 2,
+    "description": "PROTOTYPE: cannot contribute or use nonbasic moves for two side phase ends."
+  },
+  {
+    "id": "dragging",
+    "name": "Dragging",
+    "baseDamage": 0,
+    "effectType": "delay",
+    "duration": 0,
+    "description": "PROTOTYPE: move to end of next phase order once."
+  }
+]

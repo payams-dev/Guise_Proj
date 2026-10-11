@@ -1,0 +1,269 @@
+{
+  "schemaVersion": 2,
+  "description": "GUISE event/cutscene with JSON-timed audio cues and screen-owned audio handoff.",
+  "routes": {
+    "onBoot": "boot_intro",
+    "onNewGame": null
+  },
+  "screens": {
+    "main_title": "MenuAnimationTestScreen"
+  },
+  "events": {
+    "boot_intro": {
+      "kind": "cutscene",
+      "tags": [
+        "boot",
+        "opening",
+        "cinematic",
+        "prophecy"
+      ],
+      "skippable": false,
+      "steps": [
+        {
+          "id": "opening_black",
+          "type": "wait",
+          "tags": [
+            "boot",
+            "black_screen"
+          ],
+          "seconds": 0.55
+        },
+        {
+          "id": "company_splash",
+          "type": "image",
+          "tags": [
+            "boot",
+            "branding",
+            "company_logo"
+          ],
+          "asset": "menu/title/COMPANY LOGO.png",
+          "widthRatio": 0.55,
+          "maxHeightRatio": 0.38,
+          "fadeInSeconds": 1.05,
+          "holdSeconds": 1.45,
+          "fadeOutSeconds": 0.9,
+          "blackSeconds": 0.25,
+          "audioCues": [
+            {
+              "at": "start",
+              "offsetSeconds": 0.0,
+              "action": "play",
+              "track": "company_crash"
+            }
+          ]
+        },
+        {
+          "id": "prophecy_01",
+          "type": "dialogue",
+          "tags": [
+            "prophecy",
+            "narration",
+            "groove",
+            "opening"
+          ],
+          "lines": [
+            "Hark, Cool Cats and Groovin’ bands,",
+            "for I bear witness to the dawn of destruction",
+            "awaiting the GROOVE."
+          ],
+          "font": "fonts/Post Antiqua BE Regular.ttf",
+          "textColor": "#EDE4D5",
+          "fontSizeRatio": 0.047,
+          "lineSpacingMultiplier": 1.35,
+          "maxTextWidthRatio": 0.86,
+          "fadeInSeconds": 0.95,
+          "holdSeconds": 5.6,
+          "fadeOutSeconds": 0.9,
+          "blackSeconds": 0.22,
+          "audioCues": [
+            {
+              "at": "start",
+              "action": "play",
+              "track": "prophecy_wind"
+            }
+          ]
+        },
+        {
+          "id": "prophecy_02",
+          "type": "dialogue",
+          "tags": [
+            "prophecy",
+            "narration",
+            "eternal_drum",
+            "dukes_kings_counts"
+          ],
+          "lines": [
+            "When the eternal drum resounds throughout the earth,",
+            "the Dukes, the Kings, and the Counts will stop jammin’."
+          ],
+          "font": "fonts/Post Antiqua BE Regular.ttf",
+          "textColor": "#EDE4D5",
+          "fontSizeRatio": 0.047,
+          "lineSpacingMultiplier": 1.35,
+          "maxTextWidthRatio": 0.86,
+          "fadeInSeconds": 0.95,
+          "holdSeconds": 5.7,
+          "fadeOutSeconds": 0.9,
+          "blackSeconds": 0.22
+        },
+        {
+          "id": "prophecy_03",
+          "type": "dialogue",
+          "tags": [
+            "prophecy",
+            "narration",
+            "jam",
+            "catastrophe"
+          ],
+          "lines": [
+            "The GROOVE will slow;",
+            "the urge to JAM will overpower the will of the masses,",
+            "marking the beginning of the end."
+          ],
+          "font": "fonts/Post Antiqua BE Regular.ttf",
+          "textColor": "#EDE4D5",
+          "fontSizeRatio": 0.047,
+          "lineSpacingMultiplier": 1.35,
+          "maxTextWidthRatio": 0.86,
+          "fadeInSeconds": 0.95,
+          "holdSeconds": 6.4,
+          "fadeOutSeconds": 0.9,
+          "blackSeconds": 0.22
+        },
+        {
+          "id": "prophecy_04",
+          "type": "dialogue",
+          "tags": [
+            "prophecy",
+            "narration",
+            "groove_merchant",
+            "song_of_his_soul",
+            "law_of_rhythm"
+          ],
+          "lines": [
+            "And lo, those who behold this great mystery",
+            "shall stand before the GROOVE MERCHANT",
+            "and perform the SONG OF HIS SOUL;",
+            "such is the Law of RHYTHM."
+          ],
+          "font": "fonts/Post Antiqua BE Regular.ttf",
+          "textColor": "#EDE4D5",
+          "fontSizeRatio": 0.047,
+          "lineSpacingMultiplier": 1.35,
+          "maxTextWidthRatio": 0.86,
+          "fadeInSeconds": 0.95,
+          "holdSeconds": 7.1,
+          "fadeOutSeconds": 0.9,
+          "blackSeconds": 0.22
+        },
+        {
+          "id": "prophecy_05",
+          "type": "dialogue",
+          "tags": [
+            "prophecy",
+            "narration",
+            "closing"
+          ],
+          "lines": [
+            "...So it is written"
+          ],
+          "font": "fonts/Post Antiqua BE Regular.ttf",
+          "textColor": "#EDE4D5",
+          "fontSizeRatio": 0.047,
+          "lineSpacingMultiplier": 1.35,
+          "maxTextWidthRatio": 0.86,
+          "fadeInSeconds": 0.95,
+          "holdSeconds": 2.4,
+          "fadeOutSeconds": 0.9,
+          "blackSeconds": 0.22,
+          "audioCues": [
+            {
+              "at": "fadeOutStart",
+              "action": "fade",
+              "track": "prophecy_wind",
+              "toVolume": 0.0,
+              "durationSeconds": 0.9
+            },
+            {
+              "at": "end",
+              "action": "stop",
+              "track": "prophecy_wind"
+            }
+          ]
+        },
+        {
+          "id": "groove_logo_reveal",
+          "type": "logo_reveal",
+          "tags": [
+            "boot",
+            "groove_logo",
+            "title_transition"
+          ],
+          "asset": "menu/title/GROOVE_LOGO.png",
+          "fadeInSeconds": 1.0,
+          "holdSeconds": 3.0,
+          "slideSeconds": 1.15,
+          "flashSeconds": 0.2,
+          "audioCues": [
+            {
+              "at": "flashStart",
+              "action": "play",
+              "track": "flash_thunder"
+            }
+          ]
+        },
+        {
+          "id": "enter_title",
+          "type": "open_screen",
+          "tags": [
+            "navigation",
+            "title"
+          ],
+          "screenId": "main_title",
+          "audioCues": [
+            {
+              "at": "start",
+              "action": "play",
+              "track": "city_ambience"
+            },
+            {
+              "at": "start",
+              "action": "play",
+              "track": "main_menu_theme"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "audio": {
+    "company_crash": {
+      "file": "menu/sound/cymbal-crash-sound-effect.mp3",
+      "type": "sound",
+      "volume": 0.8
+    },
+    "prophecy_wind": {
+      "file": "menu/sound/Howling Wind Sound Effect.mp3",
+      "type": "music",
+      "volume": 0.42,
+      "loop": true
+    },
+    "flash_thunder": {
+      "file": "menu/sound/Thunder Sound effect.mp3",
+      "type": "sound",
+      "volume": 0.85
+    },
+    "city_ambience": {
+      "file": "menu/sound/city_sfx_3mins.mp3",
+      "type": "music",
+      "volume": 0.7,
+      "loop": true
+    },
+    "main_menu_theme": {
+      "file": "menu/sound/main_menu_theme.mp3",
+      "type": "music",
+      "volume": 0.62,
+      "loop": true
+    }
+  }
+}

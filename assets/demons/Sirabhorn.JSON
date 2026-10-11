@@ -1,0 +1,45 @@
+{
+  "id": "sirabhorn",
+  "name": "Sirabhorn",
+  "race": "Guitar",
+  "level": 15,
+  "base_level": 15,
+  "max_skill_level": 19,
+  "hp": 198,
+  "mp": 57,
+  "basicAttack": "lick",
+  "stats": {
+    "str": 5,
+    "vit": 18,
+    "mag": 4,
+    "agi": 5,
+    "luk": 3
+  },
+  "affinities": {
+    "phys": "Neutral",
+    "soul": "Weak",
+    "modal": "Weak",
+    "fusion": "Weak",
+    "bebop": "Weak",
+    "harmony": "Null",
+    "dissonance": "Null"
+  },
+  "battleSkills": [
+    "lick",
+    "diatonic_harmony",
+    "minor_dissonance",
+    "jam_session",
+    "vamp"
+  ],
+  "learnableSkills": [
+    {
+      "level": 16,
+      "skill": "the_stankface"
+    },
+    {
+      "level": 17,
+      "skill": "fusion_phrase"
+    }
+  ],
+  "schemaVersion": 1
+}

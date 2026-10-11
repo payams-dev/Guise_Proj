@@ -1,0 +1,18 @@
+package slice;
+import battle.*;
+import groove.GrooveCalculator;
+import org.junit.jupiter.api.Test;
+import java.util.*;
+import static org.junit.jupiter.api.Assertions.*;
+class GrooveTest {
+ private GrooveCalculator calculator(){return new GrooveCalculator(ContentBandTest.catalog().load("prototype/groove-rules.json",GrooveCalculator.Rules.class),5);}
+ private BattleResult result(long id,String signature,BattleResult.Fact...facts){BattleResult r=new BattleResult(id,true,signature);r.facts.addAll(Arrays.asList(facts));return r;}
+ private BattleResult.Fact fact(BattleResult.Type type,String actor,String target,String id,int amount,boolean player,boolean targetPlayer){return new BattleResult.Fact(type,actor,target,id,amount,player,targetPlayer);}
+ private BattleResult.Fact completed(String family,String...participants){return new BattleResult.Fact(BattleResult.Type.ARRANGEMENT_COMPLETED,"p",null,family,0,true,false,Arrays.asList(participants));}
+ @Test void scoreUsesFixedThreeRoundDenominatorAndAgesOut(){GrooveCalculator g=calculator();g.accept(result(1,"arr",completed("affinity"),fact(BattleResult.Type.WEAKNESS,"p","e","modal",0,true,false)),true);assertEquals(2.5,g.score(),.00001);g.nextRound();assertEquals(2.5,g.score(),.00001);g.nextRound();g.nextRound();assertEquals(.5,g.score(),.00001);assertEquals(0,g.completedArrangements());}
+ @Test void capsDedupeAndNoPositiveBasicAttackCounter(){GrooveCalculator g=calculator();BattleResult r=result(1,"arr",completed("affinity"));g.accept(r,true);g.accept(r,true);g.accept(result(2,"arr",completed("affinity")),true);assertEquals(4,g.current().score);g.accept(result(3,"arr",completed("affinity")),true);assertEquals(2,g.current().score);g.accept(result(4,"move:riff"),true);assertEquals(2,g.current().score);}
+ @Test void varietyNeedsDifferentRecentFamilyAndMissIsOncePerRound(){GrooveCalculator g=calculator();g.accept(result(1,"a",completed("affinity")),true);g.accept(result(2,"b",completed("affinity")),true);assertEquals(4,g.current().score);g.accept(result(3,"c",completed("order")),true);assertEquals(5,g.current().score);g.accept(result(4,"aoe",fact(BattleResult.Type.MISS,"p","e1","m",0,true,false),fact(BattleResult.Type.MISS,"p","e2","m",0,true,false)),true);assertEquals(3,g.current().score);}
+ @Test void hostileRecoveryAndUsefulReplacementCreditOnlyOnce(){GrooveCalculator g=calculator();g.accept(result(1,"enemy",fact(BattleResult.Type.STATUS,"enemy","out","muted",0,false,true)),false);g.accept(result(2,"swap",fact(BattleResult.Type.SWAP,"out","in","reserve",1,true,true)),true);assertEquals(0,g.current().score);g.accept(result(3,"arr",completed("protection","in")),true);assertEquals(9,g.current().score);g.nextRound();g.accept(result(4,"arr",completed("protection","in")),false);assertEquals(4,g.current().score);assertEquals(1,g.recoveryCount());assertEquals(1,g.adaptationCount());}
+ @Test void selfInflictedStatusDoesNotCreateRecovery(){GrooveCalculator g=calculator();g.accept(result(1,"self",fact(BattleResult.Type.STATUS,"p","out","muted",0,true,true)),false);g.accept(result(2,"swap",fact(BattleResult.Type.SWAP,"out","in","reserve",1,true,true)),true);g.accept(result(3,"arr",completed("order","in")),true);assertEquals(4,g.current().score);}
+ @Test void brassEvidenceAveragesPerMusicianPerRound(){GrooveCalculator g=calculator();g.accept(result(1,"a",fact(BattleResult.Type.CONTRIBUTION,"p",null,"test",1,true,false)),false);g.accept(result(2,"b",fact(BattleResult.Type.CONTRIBUTION,"p",null,"test",0,true,false)),false);g.accept(result(3,"c",fact(BattleResult.Type.CONTRIBUTION,"sax",null,"test",0,true,false)),false);assertEquals(.25,g.brassShare(),.00001);}
+}

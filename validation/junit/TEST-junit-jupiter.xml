@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="JUnit Jupiter" tests="47" skipped="0" failures="0" errors="0" time="0.575" hostname="e06982b852bc" timestamp="2026-10-05T11:10:49">
+<properties>
+<property name="file.encoding" value="UTF-8"/>
+<property name="file.separator" value="/"/>
+<property name="guise.assets" value="assets"/>
+<property name="java.class.path" value="/tmp/guise-junit.jar"/>
+<property name="java.class.version" value="61.0"/>
+<property name="java.home" value="/usr/lib/jvm/java-17-openjdk-amd64"/>
+<property name="java.io.tmpdir" value="/tmp"/>
+<property name="java.library.path" value="/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
+<property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+<property name="java.runtime.version" value="17.0.20+8-1-24.04-Ubuntu"/>
+<property name="java.specification.maintenance.version" value="1"/>
+<property name="java.specification.name" value="Java Platform API Specification"/>
+<property name="java.specification.vendor" value="Oracle Corporation"/>
+<property name="java.specification.version" value="17"/>
+<property name="java.vendor" value="Ubuntu"/>
+<property name="java.vendor.url" value="https://ubuntu.com/"/>
+<property name="java.vendor.url.bug" value="https://bugs.launchpad.net/ubuntu/+source/openjdk-17"/>
+<property name="java.version" value="17.0.20"/>
+<property name="java.version.date" value="2026-07-21"/>
+<property name="java.vm.compressedOopsMode" value="32-bit"/>
+<property name="java.vm.info" value="mixed mode, sharing"/>
+<property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+<property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+<property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+<property name="java.vm.specification.version" value="17"/>
+<property name="java.vm.vendor" value="Ubuntu"/>
+<property name="java.vm.version" value="17.0.20+8-1-24.04-Ubuntu"/>
+<property name="jdk.debug" value="release"/>
+<property name="line.separator" value="
+"/>
+<property name="native.encoding" value="UTF-8"/>
+<property name="os.arch" value="amd64"/>
+<property name="os.name" value="Linux"/>
+<property name="os.version" value="6.18.44"/>
+<property name="path.separator" value=":"/>
+<property name="sun.arch.data.model" value="64"/>
+<property name="sun.boot.library.path" value="/usr/lib/jvm/java-17-openjdk-amd64/lib"/>
+<property name="sun.cpu.endian" value="little"/>
+<property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+<property name="sun.java.command" value="/tmp/guise-junit.jar execute --class-path build/local-tests/main:build/local-tests/test:/tmp/guise-gdx.jar:/tmp/guise-gson.jar --scan-class-path --disable-banner --details=summary --reports-dir build/local-tests/results"/>
+<property name="sun.java.launcher" value="SUN_STANDARD"/>
+<property name="sun.jnu.encoding" value="UTF-8"/>
+<property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+<property name="user.dir" value="/workspace/scratch/44f2c9ea9893/GUISE-slice/Guise_Proj"/>
+<property name="user.home" value="/root"/>
+<property name="user.language" value="en"/>
+<property name="user.name" value="root"/>
+<property name="user.timezone" value="America/New_York"/>
+</properties>
+<testcase name="judgmentHasTwoGatesAndExactlyThreeIdempotentAttempts()" classname="slice.SliceCombatTest" time="0.008">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:slice.SliceCombatTest]/[method:judgmentHasTwoGatesAndExactlyThreeIdempotentAttempts()]
+display-name: judgmentHasTwoGatesAndExactlyThreeIdempotentAttempts()
+]]></system-out>
+</testcase>
+<testcase name="ordinaryAffinityOutcomes(String, String, int)[3]" classname="slice.AffinityResolutionTest" time="0.005">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:slice.AffinityResolutionTest]/[test-template:ordinaryAffinityOutcomes(java.lang.String, java.lang.String, int)]/[test-template-invocation:#3]
+display-name: [3] resist, RESIST, 3
+]]></system-out>
+</testcase>
+<testcase name="walkingSoloSchedulesSaxWithoutGivingFreeCommand()" classname="slice.SliceCombatTest" time="0.006">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:slice.SliceCombatTest]/[method:walkingSoloSchedulesSaxWithoutGivingFreeCommand()]
+display-name: walkingSoloSchedulesSaxWithoutGivingFreeCommand()
+]]></system-out>
+</testcase>
+<testcase name="repelStopsSecondComponentAndClearsIcons()" classname="slice.SliceCombatTest" time="0.004">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:slice.SliceCombatTest]/[method:repelStopsSecondComponentAndClearsIcons()]
+display-name: repelStopsSecondComponentAndClearsIcons()
+]]></system-out>
+</testcase>
+<testcase name="noContributionEvidenceForMissedIndividualMove()" classname="slice.AffinityResolutionTest" time="0.003">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:slice.AffinityResolutionTest]/[method:noContributionEvidenceForMissedIndividualMove()]
+display-name: noContributionEvidenceForMissedIndividualMove()
+]]></system-out>
+</testcase>
+<testcase name="ordinaryAffinityOutcomes(String, String, int)[2]" classname="slice.AffinityResolutionTest" time="0.013">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:slice.AffinityResolutionTest]/[test-template:ordinaryAffinityOutcomes(java.lang.String, java.lang.String, int)]/[test-template-invocation:#2]
+display-name: [2] weak, WEAKNESS, 4
+]]></system-out>
+</testcase>
+<testcase name="dotTicksExactlyThreeTimesAndRefreshes()" classname="slice.StatusInterruptionTest" time="0.003">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:slice.StatusInterruptionTest]/[method:dotTicksExactlyThreeTimesAndRefreshes()]
+display-name: dotTicksExactlyThreeTimesAndRefreshes()
+]]></system-out>
+</testcase>
+<testcase name="ordinaryAffinityOutcomes(String, String, int)[1]" classname="slice.AffinityResolutionTest" time="0.016">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:slice.AffinityResolutionTest]/[test-template:ordinaryAffinityOutcomes(java.lang.String, java.lang.String, int)]/[test-template-invocation:#1]
+display-name: [1] neutral, NORMAL, 3
+]]></system-out>
+</testcase>
+<testcase name="fullChorusHasSingleAggregateAndSuppressesEnemyBand()" classname="slice.SliceCombatTest" time="0.005">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:slice.SliceCombatTest]/[method:fullChorusHasSingleAggregateAndSuppressesEnemyBand()]
+display-name: fullChorusHasSingleAggregateAndSuppressesEnemyBand()
+]]></system-out>
+</testcase>
+<testcase name="ordinaryAffinityOutcomes(String, String, int)[6]" classname="slice.AffinityResolutionTest" time="0.002">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:slice.AffinityResolutionTest]/[test-template:ordinaryAffinityOutcomes(java.lang.String, java.lang.String, int)]/[test-template-invocation:#6]
+display-name: [6] drain, ABSORB, 0
+]]></system-out>
+</testcase>
+<testcase name="ordinaryAffinityOutcomes(String, String, int)[5]" classname="slice.AffinityResolutionTest" time="0.003">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:slice.AffinityResolutionTest]/[test-template:ordinaryAffinityOutcomes(java.lang.String, java.lang.String, int)]/[test-template-invocation:#5]
+display-name: [5] repel, REPEL, 0
+]]></system-out>
+</testcase>
+<testcase name="rushingPaysOneIconAndClears()" classname="slice.StatusInterruptionTest" time="0.002">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:slice.StatusInterruptionTest]/[method:rushingPaysOneIconAndClears()]
+display-name: rushingPaysOneIconAndClears()
+]]></system-out>
+</testcase>
+<testcase name="brassEvidenceAveragesPerMusicianPerRound()" classname="slice.GrooveTest" time="0.007">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:slice.GrooveTest]/[method:brassEvidenceAveragesPerMusicianPerRound()]
+display-name: brassEvidenceAveragesPerMusicianPerRound()
+]]></system-out>
+</testcase>
+<testcase name="ordinaryAffinityOutcomes(String, String, int)[4]" classname="slice.AffinityResolutionTest" time="0.004">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:slice.AffinityResolutionTest]/[test-template:ordinaryAffinityOutcomes(java.lang.String, java.lang.String, int)]/[test-template-invocation:#4]
+display-name: [4] null, NULLIFY, 2
+]]></system-out>
+</testcase>
+<testcase name="duplicateInstrumentsNeedDistinctMusicians()" classname="slice.ContentBandTest" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:slice.ContentBandTest]/[method:duplicateInstrumentsNeedDistinctMusicians()]
+display-name: duplicateInstrumentsNeedDistinctMusicians()
+]]></system-out>
+</testcase>
+<testcase name="dungeonHasReachableEventsAndWalls()" classname="slice.EndToEndTest" time="0.008">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:slice.EndToEndTest]/[method:dungeonHasReachableEventsAndWalls()]
+display-name: dungeonHasReachableEventsAndWalls()
+]]></system-out>
+</testcase>
+<testcase name="cueIsReachableAndInterruptsOnceWithFullCommittedCost()" classname="slice.StatusInterruptionTest" time="0.005">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:slice.StatusInterruptionTest]/[method:cueIsReachableAndInterruptsOnceWithFullCommittedCost()]
+display-name: cueIsReachableAndInterruptsOnceWithFullCommittedCost()
+]]></system-out>
+</testcase>
+<testcase name="unsupportedMoveFailsInsteadOfPretending()" classname="slice.ContentBandTest" time="0.002">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:slice.ContentBandTest]/[method:unsupportedMoveFailsInsteadOfPretending()]
+display-name: unsupportedMoveFailsInsteadOfPretending()
+]]></system-out>
+</testcase>
+<testcase name="samePartyVoluntaryTokenBreakCannotFarmRecovery()" classname="slice.AffinityResolutionTest" time="0.003">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:slice.AffinityResolutionTest]/[method:samePartyVoluntaryTokenBreakCannotFarmRecovery()]
+display-name: samePartyVoluntaryTokenBreakCannotFarmRecovery()
+]]></system-out>
+</testcase>
+<testcase name="protectionCompletesOnEnemyHitNotOnReadying()" classname="slice.SliceCombatTest" time="0.015">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:slice.SliceCombatTest]/[method:protectionCompletesOnEnemyHitNotOnReadying()]
+display-name: protectionCompletesOnEnemyHitNotOnReadying()
+]]></system-out>
+</testcase>
+<testcase name="killingCueOwnerDisruptsOnce()" classname="slice.StatusInterruptionTest" time="0.004">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:slice.StatusInterruptionTest]/[method:killingCueOwnerDisruptsOnce()]
+display-name: killingCueOwnerDisruptsOnce()
+]]></system-out>
+</testcase>
+<testcase name="varietyNeedsDifferentRecentFamilyAndMissIsOncePerRound()" classname="slice.GrooveTest" time="0.102">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:slice.GrooveTest]/[method:varietyNeedsDifferentRecentFamilyAndMissIsOncePerRound()]
+display-name: varietyNeedsDifferentRecentFamilyAndMissIsOncePerRound()
+]]></system-out>
+</testcase>
+<testcase name="dotDeathEmitsOnceAndFreezesFinalRound()" classname="slice.StatusInterruptionTest" time="0.003">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:slice.StatusInterruptionTest]/[method:dotDeathEmitsOnceAndFreezesFinalRound()]
+display-name: dotDeathEmitsOnceAndFreezesFinalRound()
+]]></system-out>
+</testcase>
+<testcase name="deferredMovesAreReportedButPreserved()" classname="slice.DemonDocumentTest" time="0.011">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:slice.DemonDocumentTest]/[method:deferredMovesAreReportedButPreserved()]
+display-name: deferredMovesAreReportedButPreserved()
+]]></system-out>
+</testcase>
+<testcase name="critWeakDoesNotStackIcons()" classname="slice.AffinityResolutionTest" time="0.003">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:slice.AffinityResolutionTest]/[method:critWeakDoesNotStackIcons()]
+display-name: critWeakDoesNotStackIcons()
+]]></system-out>
+</testcase>
+<testcase name="zeroMpTestifiedStaysLockedButUnaffordablePaidMoveReleases()" classname="slice.StatusInterruptionTest" time="0.003">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:slice.StatusInterruptionTest]/[method:zeroMpTestifiedStaysLockedButUnaffordablePaidMoveReleases()]
+display-name: zeroMpTestifiedStaysLockedButUnaffordablePaidMoveReleases()
+]]></system-out>
+</testcase>
+<testcase name="selfInflictedStatusDoesNotCreateRecovery()" classname="slice.GrooveTest" time="0.007">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:slice.GrooveTest]/[method:selfInflictedStatusDoesNotCreateRecovery()]
+display-name: selfInflictedStatusDoesNotCreateRecovery()
+]]></system-out>
+</testcase>
+<testcase name="hostileRecoveryAndUsefulReplacementCreditOnlyOnce()" classname="slice.GrooveTest" time="0.011">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:slice.GrooveTest]/[method:hostileRecoveryAndUsefulReplacementCreditOnlyOnce()]
+display-name: hostileRecoveryAndUsefulReplacementCreditOnlyOnce()
+]]></system-out>
+</testcase>
+<testcase name="reserveCannotActOrReturnSamePhaseAndVoluntaryBreakHasNoPenalty()" classname="slice.StatusInterruptionTest" time="0.002">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:slice.StatusInterruptionTest]/[method:reserveCannotActOrReturnSamePhaseAndVoluntaryBreakHasNoPenalty()]
+display-name: reserveCannotActOrReturnSamePhaseAndVoluntaryBreakHasNoPenalty()
+]]></system-out>
+</testcase>
+<testcase name="virtuosoPaysCombinedRolesAndOneBodyGeneratesOneIcon()" classname="slice.StatusInterruptionTest" time="0.003">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:slice.StatusInterruptionTest]/[method:virtuosoPaysCombinedRolesAndOneBodyGeneratesOneIcon()]
+display-name: virtuosoPaysCombinedRolesAndOneBodyGeneratesOneIcon()
+]]></system-out>
+</testcase>
+<testcase name="originalDefinitionsAndUnknownFieldsRoundTrip()" classname="slice.DemonDocumentTest" time="0.056">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:slice.DemonDocumentTest]/[method:originalDefinitionsAndUnknownFieldsRoundTrip()]
+display-name: originalDefinitionsAndUnknownFieldsRoundTrip()
+]]></system-out>
+</testcase>
+<testcase name="fieldProgressionKeepsIdentitiesAndUnlocksInstrument()" classname="slice.SliceCombatTest" time="0.006">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:slice.SliceCombatTest]/[method:fieldProgressionKeepsIdentitiesAndUnlocksInstrument()]
+display-name: fieldProgressionKeepsIdentitiesAndUnlocksInstrument()
+]]></system-out>
+</testcase>
+<testcase name="legacyLibGdxSerializerStillLoadsDemonAndMoveCatalog()" classname="slice.ContentBandTest" time="0.024">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:slice.ContentBandTest]/[method:legacyLibGdxSerializerStillLoadsDemonAndMoveCatalog()]
+display-name: legacyLibGdxSerializerStillLoadsDemonAndMoveCatalog()
+]]></system-out>
+</testcase>
+<testcase name="virtuosoUsesTwoDistinctRolesNotTwoBodies()" classname="slice.ContentBandTest" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:slice.ContentBandTest]/[method:virtuosoUsesTwoDistinctRolesNotTwoBodies()]
+display-name: virtuosoUsesTwoDistinctRolesNotTwoBodies()
+]]></system-out>
+</testcase>
+<testcase name="scoreUsesFixedThreeRoundDenominatorAndAgesOut()" classname="slice.GrooveTest" time="0.006">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:slice.GrooveTest]/[method:scoreUsesFixedThreeRoundDenominatorAndAgesOut()]
+display-name: scoreUsesFixedThreeRoundDenominatorAndAgesOut()
+]]></system-out>
+</testcase>
+<testcase name="bothBandsRunThroughPersistentSession()" classname="slice.EndToEndTest" time="0.041">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:slice.EndToEndTest]/[method:bothBandsRunThroughPersistentSession()]
+display-name: bothBandsRunThroughPersistentSession()
+]]></system-out>
+</testcase>
+<testcase name="capsDedupeAndNoPositiveBasicAttackCounter()" classname="slice.GrooveTest" time="0.012">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:slice.GrooveTest]/[method:capsDedupeAndNoPositiveBasicAttackCounter()]
+display-name: capsDedupeAndNoPositiveBasicAttackCounter()
+]]></system-out>
+</testcase>
+<testcase name="blueNoteActuallyExecutesAndDiscovers()" classname="slice.SliceCombatTest" time="0.005">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:slice.SliceCombatTest]/[method:blueNoteActuallyExecutesAndDiscovers()]
+display-name: blueNoteActuallyExecutesAndDiscovers()
+]]></system-out>
+</testcase>
+<testcase name="costsPreserveFifoPressTurn()" classname="slice.ContentBandTest" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:slice.ContentBandTest]/[method:costsPreserveFifoPressTurn()]
+display-name: costsPreserveFifoPressTurn()
+]]></system-out>
+</testcase>
+<testcase name="deadAndMutedAssignmentsAreStructuralButUnusable()" classname="slice.ContentBandTest" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:slice.ContentBandTest]/[method:deadAndMutedAssignmentsAreStructuralButUnusable()]
+display-name: deadAndMutedAssignmentsAreStructuralButUnusable()
+]]></system-out>
+</testcase>
+<testcase name="learnLevelsAndDeclaredCapacityValidate()" classname="slice.DemonDocumentTest" time="0.012">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:slice.DemonDocumentTest]/[method:learnLevelsAndDeclaredCapacityValidate()]
+display-name: learnLevelsAndDeclaredCapacityValidate()
+]]></system-out>
+</testcase>
+<testcase name="multiTargetWeakResistBonusButWeakMissPenalty()" classname="slice.AffinityResolutionTest" time="0.007">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:slice.AffinityResolutionTest]/[method:multiTargetWeakResistBonusButWeakMissPenalty()]
+display-name: multiTargetWeakResistBonusButWeakMissPenalty()
+]]></system-out>
+</testcase>
+<testcase name="invalidReferenceCannotOverwriteValidFile()" classname="slice.DemonDocumentTest" time="0.01">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:slice.DemonDocumentTest]/[method:invalidReferenceCannotOverwriteValidFile()]
+display-name: invalidReferenceCannotOverwriteValidFile()
+]]></system-out>
+</testcase>
+<testcase name="invalidArrangementDoesNotChargeOrRoll()" classname="slice.SliceCombatTest" time="0.003">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:slice.SliceCombatTest]/[method:invalidArrangementDoesNotChargeOrRoll()]
+display-name: invalidArrangementDoesNotChargeOrRoll()
+]]></system-out>
+</testcase>
+<testcase name="mutedAllowsBasicButNotSkillsAndExpiresAtTwoPhaseEnds()" classname="slice.StatusInterruptionTest" time="0.003">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:slice.StatusInterruptionTest]/[method:mutedAllowsBasicButNotSkillsAndExpiresAtTwoPhaseEnds()]
+display-name: mutedAllowsBasicButNotSkillsAndExpiresAtTwoPhaseEnds()
+]]></system-out>
+</testcase>
+<testcase name="draggingMovesActorToEndOfNextPhaseOnly()" classname="slice.StatusInterruptionTest" time="0.003">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:slice.StatusInterruptionTest]/[method:draggingMovesActorToEndOfNextPhaseOnly()]
+display-name: draggingMovesActorToEndOfNextPhaseOnly()
+]]></system-out>
+</testcase>
+<testcase name="existingContentSurvives()" classname="slice.ContentBandTest" time="0.002">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:slice.ContentBandTest]/[method:existingContentSurvives()]
+display-name: existingContentSurvives()
+]]></system-out>
+</testcase>
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]
+display-name: JUnit Jupiter
+]]></system-out>
+</testsuite>

@@ -1,0 +1,2 @@
+error: XDG_RUNTIME_DIR is invalid or not set in the environment.
+JAR_LAUNCH_PASS: java -jar remained running for 5 seconds; intentionally terminated.

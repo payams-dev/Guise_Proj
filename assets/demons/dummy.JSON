@@ -1,0 +1,54 @@
+{
+  "id": "dummy",
+  "name": "Dummy",
+  "race": "Test",
+  "hp": 80,
+  "mp": 20,
+  "stats": {
+    "str": 4,
+    "vit": 5,
+    "mag": 6,
+    "agi": 4,
+    "luk": 3
+  },
+  "battleSkills": [
+    "soul_motif",
+    "modal_motif"
+  ],
+  "elements": {
+    "physical": "Neutral",
+    "soul": "Neutral",
+    "modal": "Neutral",
+    "fusion": "Neutral",
+    "bebop": "Neutral",
+    "harmony": "Neutral",
+    "dissonance": "Neutral",
+    "groove": "Neutral"
+  },
+  "ailments": {
+    "confusion": "Neutral",
+    "charm": "Neutral",
+    "poison": "Neutral",
+    "sleep": "Neutral",
+    "seal": "Neutral"
+  },
+  "learnableSkills": [
+    {
+      "level": 1,
+      "skill": "soul_motif"
+    },
+    {
+      "level": 3,
+      "skill": "modal_motif"
+    },
+    {
+      "level": 5,
+      "skill": "soul_phrase"
+    },
+    {
+      "level": 7,
+      "skill": "modal_phrase"
+    }
+  ],
+  "schemaVersion": 1
+}

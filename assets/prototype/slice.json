@@ -1,0 +1,20 @@
+{
+  "candidate": "A",
+  "seed": 731,
+  "startInstrument": "piano",
+  "rewardInstrument": "trumpet",
+  "playerLevel": 3,
+  "enemyHpScale": 2,
+  "enemyMpBonus": 12,
+  "startingMembers": [
+    "prototype/demons/test_saxophone.json",
+    "prototype/demons/test_bass.json",
+    "demons/Ambassador.JSON"
+  ],
+  "reserveReward": "demons/JJJ.JSON",
+  "secondEncounterAffinities": {
+    "Bass": {
+      "physical": "Weak"
+    }
+  }
+}

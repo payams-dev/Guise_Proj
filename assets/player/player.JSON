@@ -1,0 +1,27 @@
+{
+  "id": "player",
+  "name": "Player",
+  "race": "Human",
+  "hp": 120,
+  "mp": 40,
+  "stats": {
+    "str": 6,
+    "vit": 6,
+    "mag": 5,
+    "agi": 5,
+    "luk": 5
+  },
+  "battleSkills": [
+    "soul_motif",
+    "modal_motif",
+    "fusion_motif",
+    "crash"
+  ],
+  "learnableSkills": [],
+  "schemaVersion": 1,
+  "originRace": "Human",
+  "unlockedInstrumentIds": [
+    "piano"
+  ],
+  "equippedInstrumentId": "piano"
+}

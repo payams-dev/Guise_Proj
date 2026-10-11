@@ -1,0 +1,1153 @@
+{
+  "moves": [
+	
+	{
+		"id": "attack",
+		"name": "Attack",
+		"element": "physical",
+		"tier": "minor",
+		"targetType": "single",
+		"mpCost": 0,
+		"baseDamage": 32,
+		"hitRate": 1.0,
+		"tags": ["physical", "single_target", "default"],
+		"statusEffect": {
+		   "type": "null",
+		   "chance": 0
+		}
+	},
+	
+		
+		
+	    {
+	      "id": "soul_motif",
+	      "name": "Soul Motif",
+	      "element": "soul",
+	      "tier": "minor",
+	      "targetType": "single",
+	      "mpCost": 3,
+	      "baseDamage": 16,
+	      "hitRate": 1.0,
+	      "tags": ["magic", "single_target", "minor"],
+	      "statusEffect": {
+	        "type": "testified",
+	        "chance": 0.20
+	      }
+	    },
+		
+	    {
+	      "id": "soul_phrase",
+	      "name": "Soul Phrase",
+	      "element": "soul",
+	      "tier": "mid",
+	      "targetType": "single",
+	      "mpCost": 6,
+	      "baseDamage": 24,
+	      "hitRate": 1.0,
+	      "tags": ["magic", "single_target", "mid"],
+	      "statusEffect": {
+	        "type": "testified",
+	        "chance": 0.25
+	      }
+	    },
+	    {
+	      "id": "soul_improv",
+	      "name": "Soul Improv",
+	      "element": "soul",
+	      "tier": "heavy",
+	      "targetType": "single",
+	      "mpCost": 10,
+	      "baseDamage": 40,
+	      "hitRate": 1.0,
+	      "tags": ["magic", "single_target", "heavy"],
+	      "statusEffect": {
+	        "type": "testified",
+	        "chance": 0.30
+	      }
+	    },
+	    {
+	      "id": "soul_combo",
+	      "name": "Soul Combo",
+	      "element": "soul",
+	      "tier": "minor",
+	      "targetType": "aoe",
+	      "mpCost": 8,
+	      "baseDamage": 14,
+	      "hitRate": 1.0,
+	      "tags": ["magic", "aoe", "minor"],
+	      "statusEffect": {
+	        "type": "testified",
+	        "chance": 0.10
+	      }
+	    },
+	    {
+	      "id": "soul_ensemble",
+	      "name": "Soul Ensemble",
+	      "element": "soul",
+	      "tier": "mid",
+	      "targetType": "aoe",
+	      "mpCost": 15,
+	      "baseDamage": 20,
+	      "hitRate": 1.0,
+	      "tags": ["magic", "aoe", "mid"],
+	      "statusEffect": {
+	        "type": "testified",
+	        "chance": 0.13
+	      }
+	    },
+	    {
+	      "id": "soul_orchestra",
+	      "name": "Soul Orchestra",
+	      "element": "soul",
+	      "tier": "heavy",
+	      "targetType": "aoe",
+	      "mpCost": 25,
+	      "baseDamage": 36,
+	      "hitRate": 1.0,
+	      "tags": ["magic", "aoe", "heavy"],
+	      "statusEffect": {
+	        "type": "testified",
+	        "chance": 0.15
+	      }
+	    },
+	    {
+	      "id": "cascading_rhythm",
+	      "name": "Cascading Rhythm",
+	      "element": "soul",
+	      "tier": "severe",
+	      "targetType": "single",
+	      "mpCost": 30,
+	      "baseDamage": 60,
+	      "hitRate": 1.0,
+	      "tags": ["magic", "single_target", "severe"],
+	      "statusEffect": {
+	        "type": "testified",
+	        "chance": 0.30
+	      }
+	    },
+	    {
+	      "id": "sound_of_the_soul",
+	      "name": "Sound of the Soul",
+	      "element": "soul",
+	      "tier": "severe",
+	      "targetType": "aoe",
+	      "mpCost": 50,
+	      "baseDamage": 52,
+	      "hitRate": 1.0,
+	      "tags": ["magic", "aoe", "severe"],
+	      "statusEffect": {
+	        "type": "testified",
+	        "chance": 0.15
+	      }
+	    },
+
+	    {
+	      "id": "modal_motif",
+	      "name": "Modal Motif",
+	      "element": "modal",
+	      "tier": "minor",
+	      "targetType": "single",
+	      "mpCost": 3,
+	      "baseDamage": 16,
+	      "hitRate": 1.0,
+	      "tags": ["magic", "single_target", "minor"],
+	      "statusEffect": {
+	        "type": "impression",
+	        "chance": 0.20
+	      }
+	    },
+	    {
+	      "id": "modal_phrase",
+	      "name": "Modal Phrase",
+	      "element": "modal",
+	      "tier": "mid",
+	      "targetType": "single",
+	      "mpCost": 6,
+	      "baseDamage": 24,
+	      "hitRate": 1.0,
+	      "tags": ["magic", "single_target", "mid"],
+	      "statusEffect": {
+	        "type": "impression",
+	        "chance": 0.25
+	      }
+	    },
+	    {
+	      "id": "modal_improv",
+	      "name": "Modal Improv",
+	      "element": "modal",
+	      "tier": "heavy",
+	      "targetType": "single",
+	      "mpCost": 10,
+	      "baseDamage": 40,
+	      "hitRate": 1.0,
+	      "tags": ["magic", "single_target", "heavy"],
+	      "statusEffect": {
+	        "type": "impression",
+	        "chance": 0.30
+	      }
+	    },
+	    {
+	      "id": "modal_combo",
+	      "name": "Modal Combo",
+	      "element": "modal",
+	      "tier": "minor",
+	      "targetType": "aoe",
+	      "mpCost": 8,
+	      "baseDamage": 14,
+	      "hitRate": 1.0,
+	      "tags": ["magic", "aoe", "minor"],
+	      "statusEffect": {
+	        "type": "impression",
+	        "chance": 0.10
+	      }
+	    },
+	    {
+	      "id": "modal_ensemble",
+	      "name": "Modal Ensemble",
+	      "element": "modal",
+	      "tier": "mid",
+	      "targetType": "aoe",
+	      "mpCost": 15,
+	      "baseDamage": 20,
+	      "hitRate": 1.0,
+	      "tags": ["magic", "aoe", "mid"],
+	      "statusEffect": {
+	        "type": "impression",
+	        "chance": 0.13
+	      }
+	    },
+	    {
+	      "id": "modal_orchestra",
+	      "name": "Modal Orchestra",
+	      "element": "modal",
+	      "tier": "heavy",
+	      "targetType": "aoe",
+	      "mpCost": 25,
+	      "baseDamage": 36,
+	      "hitRate": 1.0,
+	      "tags": ["magic", "aoe", "heavy"],
+	      "statusEffect": {
+	        "type": "impression",
+	        "chance": 0.15
+	      }
+	    },
+	    {
+	      "id": "lydian_dominance",
+	      "name": "Lydian Dominance",
+	      "element": "modal",
+	      "tier": "severe",
+	      "targetType": "single",
+	      "mpCost": 30,
+	      "baseDamage": 60,
+	      "hitRate": 1.0,
+	      "tags": ["magic", "single_target", "severe"],
+	      "statusEffect": {
+	        "type": "impression",
+	        "chance": 0.30
+	      }
+	    },
+	    {
+	      "id": "super_locrian",
+	      "name": "Super Locrian",
+	      "element": "modal",
+	      "tier": "severe",
+	      "targetType": "aoe",
+	      "mpCost": 50,
+	      "baseDamage": 52,
+	      "hitRate": 1.0,
+	      "tags": ["magic", "aoe", "severe"],
+	      "statusEffect": {
+	        "type": "impression",
+	        "chance": 0.15
+	      }
+	    },
+
+	    {
+	      "id": "fusion_motif",
+	      "name": "Fusion Motif",
+	      "element": "fusion",
+	      "tier": "minor",
+	      "targetType": "single",
+	      "mpCost": 3,
+	      "baseDamage": 16,
+	      "hitRate": 1.0,
+	      "tags": ["magic", "single_target", "minor"],
+	      "statusEffect": {
+	        "type": "rushing",
+	        "chance": 0.20
+	      }
+	    },
+	    {
+	      "id": "fusion_phrase",
+	      "name": "Fusion Phrase",
+	      "element": "fusion",
+	      "tier": "mid",
+	      "targetType": "single",
+	      "mpCost": 6,
+	      "baseDamage": 24,
+	      "hitRate": 1.0,
+	      "tags": ["magic", "single_target", "mid"],
+	      "statusEffect": {
+	        "type": "rushing",
+	        "chance": 0.25
+	      }
+	    },
+	    {
+	      "id": "fusion_improv",
+	      "name": "Fusion Improv",
+	      "element": "fusion",
+	      "tier": "heavy",
+	      "targetType": "single",
+	      "mpCost": 10,
+	      "baseDamage": 40,
+	      "hitRate": 1.0,
+	      "tags": ["magic", "single_target", "heavy"],
+	      "statusEffect": {
+	        "type": "rushing",
+	        "chance": 0.30
+	      }
+	    },
+	    {
+	      "id": "fusion_combo",
+	      "name": "Fusion Combo",
+	      "element": "fusion",
+	      "tier": "minor",
+	      "targetType": "aoe",
+	      "mpCost": 8,
+	      "baseDamage": 14,
+	      "hitRate": 1.0,
+	      "tags": ["magic", "aoe", "minor"],
+	      "statusEffect": {
+	        "type": "rushing",
+	        "chance": 0.10
+	      }
+	    },
+	    {
+	      "id": "fusion_ensemble",
+	      "name": "Fusion Ensemble",
+	      "element": "fusion",
+	      "tier": "mid",
+	      "targetType": "aoe",
+	      "mpCost": 15,
+	      "baseDamage": 20,
+	      "hitRate": 1.0,
+	      "tags": ["magic", "aoe", "mid"],
+	      "statusEffect": {
+	        "type": "rushing",
+	        "chance": 0.13
+	      }
+	    },
+	    {
+	      "id": "fusion_orchestra",
+	      "name": "Fusion Orchestra",
+	      "element": "fusion",
+	      "tier": "heavy",
+	      "targetType": "aoe",
+	      "mpCost": 25,
+	      "baseDamage": 36,
+	      "hitRate": 1.0,
+	      "tags": ["magic", "aoe", "heavy"],
+	      "statusEffect": {
+	        "type": "rushing",
+	        "chance": 0.15
+	      }
+	    },
+	    {
+	      "id": "altered_dominion",
+	      "name": "Altered Dominion",
+	      "element": "fusion",
+	      "tier": "severe",
+	      "targetType": "single",
+	      "mpCost": 30,
+	      "baseDamage": 60,
+	      "hitRate": 1.0,
+	      "tags": ["magic", "single_target", "severe"],
+	      "statusEffect": {
+	        "type": "rushing",
+	        "chance": 0.30
+	      }
+	    },
+	    {
+	      "id": "electric_runs",
+	      "name": "Electric Runs",
+	      "element": "fusion",
+	      "tier": "severe",
+	      "targetType": "aoe",
+	      "mpCost": 50,
+	      "baseDamage": 52,
+	      "hitRate": 1.0,
+	      "tags": ["magic", "aoe", "severe"],
+	      "statusEffect": {
+	        "type": "rushing",
+	        "chance": 0.15
+	      }
+	    },
+
+	    {
+	      "id": "bebop_motif",
+	      "name": "Bebop Motif",
+	      "element": "bebop",
+	      "tier": "minor",
+	      "targetType": "single",
+	      "mpCost": 3,
+	      "baseDamage": 16,
+	      "hitRate": 1.0,
+	      "tags": ["magic", "single_target", "minor"],
+	      "statusEffect": {
+	        "type": "stank",
+	        "chance": 0.20
+	      }
+	    },
+	    {
+	      "id": "bebop_phrase",
+	      "name": "Bebop Phrase",
+	      "element": "bebop",
+	      "tier": "mid",
+	      "targetType": "single",
+	      "mpCost": 6,
+	      "baseDamage": 24,
+	      "hitRate": 1.0,
+	      "tags": ["magic", "single_target", "mid"],
+	      "statusEffect": {
+	        "type": "stank",
+	        "chance": 0.25
+	      }
+	    },
+	    {
+	      "id": "bebop_improv",
+	      "name": "Bebop Improv",
+	      "element": "bebop",
+	      "tier": "heavy",
+	      "targetType": "single",
+	      "mpCost": 10,
+	      "baseDamage": 40,
+	      "hitRate": 1.0,
+	      "tags": ["magic", "single_target", "heavy"],
+	      "statusEffect": {
+	        "type": "stank",
+	        "chance": 0.30
+	      }
+	    },
+	    {
+	      "id": "bebop_combo",
+	      "name": "Bebop Combo",
+	      "element": "bebop",
+	      "tier": "minor",
+	      "targetType": "aoe",
+	      "mpCost": 8,
+	      "baseDamage": 14,
+	      "hitRate": 1.0,
+	      "tags": ["magic", "aoe", "minor"],
+	      "statusEffect": {
+	        "type": "stank",
+	        "chance": 0.10
+	      }
+	    },
+	    {
+	      "id": "bebop_ensemble",
+	      "name": "Bebop Ensemble",
+	      "element": "bebop",
+	      "tier": "mid",
+	      "targetType": "aoe",
+	      "mpCost": 15,
+	      "baseDamage": 20,
+	      "hitRate": 1.0,
+	      "tags": ["magic", "aoe", "mid"],
+	      "statusEffect": {
+	        "type": "stank",
+	        "chance": 0.13
+	      }
+	    },
+	    {
+	      "id": "bebop_orchestra",
+	      "name": "Bebop Orchestra",
+	      "element": "bebop",
+	      "tier": "heavy",
+	      "targetType": "aoe",
+	      "mpCost": 25,
+	      "baseDamage": 36,
+	      "hitRate": 1.0,
+	      "tags": ["magic", "aoe", "heavy"],
+	      "statusEffect": {
+	        "type": "stank",
+	        "chance": 0.15
+	      }
+	    },
+	    {
+	      "id": "brass_sting",
+	      "name": "Brass Sting",
+	      "element": "bebop",
+	      "tier": "severe",
+	      "targetType": "single",
+	      "mpCost": 30,
+	      "baseDamage": 60,
+	      "hitRate": 1.0,
+	      "tags": ["magic", "single_target", "severe"],
+	      "statusEffect": {
+	        "type": "stank",
+	        "chance": 0.30
+	      }
+	    },
+	    {
+
+	      "id": "two_to_the_five_to_the_one",
+	      "name": "Two to the Five to the One",
+	      "element": "bebop",
+	      "tier": "severe",
+	      "targetType": "aoe",
+	      "mpCost": 50,
+	      "baseDamage": 52,
+	      "hitRate": 1.0,
+	      "tags": ["magic", "aoe", "severe"],
+	      "statusEffect": {
+	        "type": "stank",
+	        "chance": 0.15
+	      }
+	    },
+		{
+		  "id": "diatonic_harmony",
+		  "name": "Diatonic Harmony",
+		  "element": "harmony",
+		  "tier": "light",
+		  "targetType": "single",
+		  "mpCost": 14,
+		  "baseDamage": 0,
+		  "hitRate": 1.0,
+		  "instantKillChance": 0.25,
+		  "tags": ["magic", "single_target", "instant_kill"]
+		},
+		{
+		  "id": "modal_harmony",
+		  "name": "Modal Harmony",
+		  "element": "harmony",
+		  "tier": "mid",
+		  "targetType": "all",
+		  "mpCost": 24,
+		  "baseDamage": 0,
+		  "hitRate": 1.0,
+		  "instantKillChance": 0.20,
+		  "tags": ["magic", "aoe", "instant_kill"]
+		},
+		{
+		  "id": "altered_harmony",
+		  "name": "Altered Harmony",
+		  "element": "harmony",
+		  "tier": "heavy",
+		  "targetType": "single",
+		  "mpCost": 34,
+		  "baseDamage": 0,
+		  "hitRate": 1.0,
+		  "instantKillChance": 0.50,
+		  "tags": ["magic", "single_target", "instant_kill"]
+		},
+		{
+		  "id": "extended_harmony",
+		  "name": "Extended Harmony",
+		  "element": "harmony",
+		  "tier": "severe",
+		  "targetType": "all",
+		  "mpCost": 45,
+		  "baseDamage": 0,
+		  "hitRate": 1.0,
+		  "instantKillChance": 0.35,
+		  "tags": ["magic", "aoe", "instant_kill"]
+		},
+		{
+		  "id": "resolution",
+		  "name": "Resolution",
+		  "element": "harmony",
+		  "tier": "special",
+		  "targetType": "single",
+		  "mpCost": 38,
+		  "baseDamage": 0,
+		  "hitRate": 1.0,
+		  "hpReductionPercent": 0.50,
+		  "tags": ["magic", "single_target", "hp_reduction"]
+		},
+
+		{
+		  "id": "minor_dissonance",
+		  "name": "Minor Dissonance",
+		  "element": "dissonance",
+		  "tier": "light",
+		  "targetType": "single",
+		  "mpCost": 14,
+		  "baseDamage": 0,
+		  "hitRate": 1.0,
+		  "instantKillChance": 0.25,
+		  "tags": ["magic", "single_target", "instant_kill"]
+		},
+		{
+		  "id": "chromatic_dissonance",
+		  "name": "Chromatic Dissonance",
+		  "element": "dissonance",
+		  "tier": "mid",
+		  "targetType": "all",
+		  "mpCost": 24,
+		  "baseDamage": 0,
+		  "hitRate": 1.0,
+		  "instantKillChance": 0.20,
+		  "tags": ["magic", "aoe", "instant_kill"]
+		},
+		{
+		  "id": "altered_dissonance",
+		  "name": "Altered Dissonance",
+		  "element": "dissonance",
+		  "tier": "heavy",
+		  "targetType": "single",
+		  "mpCost": 34,
+		  "baseDamage": 0,
+		  "hitRate": 1.0,
+		  "instantKillChance": 0.50,
+		  "tags": ["magic", "single_target", "instant_kill"]
+		},
+		{
+		  "id": "extended_dissonance",
+		  "name": "Extended Dissonance",
+		  "element": "dissonance",
+		  "tier": "severe",
+		  "targetType": "all",
+		  "mpCost": 45,
+		  "baseDamage": 0,
+		  "hitRate": 1.0,
+		  "instantKillChance": 0.35,
+		  "tags": ["magic", "aoe", "instant_kill"]
+		},
+		{
+		  "id": "tension",
+		  "name": "Tension",
+		  "element": "dissonance",
+		  "tier": "special",
+		  "targetType": "single",
+		  "mpCost": 38,
+		  "baseDamage": 0,
+		  "hitRate": 1.0,
+		  "hpReductionPercent": 0.50,
+		  "tags": ["magic", "single_target", "hp_reduction"]
+		},
+
+		{
+		  "id": "riff",
+		  "name": "Riff",
+		  "element": "physical",
+		  "tier": "basic",
+		  "targetType": "single",
+		  "mpCost": 0,
+		  "baseDamage": 32,
+		  "hitRate": 1.0,
+		  "instrumentType": "saxophone",
+		  "tags": ["physical", "single_target", "basic", "instrument_attack", "saxophone"]
+		},
+		{
+		  "id": "blast",
+		  "name": "Blast",
+		  "element": "physical",
+		  "tier": "basic",
+		  "targetType": "single",
+		  "mpCost": 0,
+		  "baseDamage": 32,
+		  "hitRate": 1.0,
+		  "instrumentType": "trumpet",
+		  "tags": ["physical", "single_target", "basic", "instrument_attack", "trumpet"]
+		},
+		{
+		  "id": "chord",
+		  "name": "Chord",
+		  "element": "physical",
+		  "tier": "basic",
+		  "targetType": "single",
+		  "mpCost": 0,
+		  "baseDamage": 32,
+		  "hitRate": 1.0,
+		  "instrumentType": "piano",
+		  "tags": ["physical", "single_target", "basic", "instrument_attack", "piano"]
+		},
+		{
+		  "id": "groove",
+		  "name": "Groove",
+		  "element": "physical",
+		  "tier": "basic",
+		  "targetType": "single",
+		  "mpCost": 0,
+		  "baseDamage": 32,
+		  "hitRate": 1.0,
+		  "instrumentType": "bass",
+		  "tags": ["physical", "single_target", "basic", "instrument_attack", "bass"]
+		},
+		{
+		  "id": "lick",
+		  "name": "Lick",
+		  "element": "physical",
+		  "tier": "basic",
+		  "targetType": "single",
+		  "mpCost": 0,
+		  "baseDamage": 32,
+		  "hitRate": 1.0,
+		  "instrumentType": "guitar",
+		  "tags": ["physical", "single_target", "basic", "instrument_attack", "guitar"]
+		},
+		{
+		  "id": "fill",
+		  "name": "Fill",
+		  "element": "physical",
+		  "tier": "basic",
+		  "targetType": "single",
+		  "mpCost": 0,
+		  "baseDamage": 32,
+		  "hitRate": 1.0,
+		  "instrumentType": "drums",
+		  "tags": ["physical", "single_target", "basic", "instrument_attack", "drums"]
+		},
+		{
+		  "id": "chant",
+		  "name": "Chant",
+		  "element": "physical",
+		  "tier": "basic",
+		  "targetType": "single",
+		  "mpCost": 0,
+		  "baseDamage": 32,
+		  "hitRate": 1.0,
+		  "instrumentType": "vocals",
+		  "tags": ["physical", "single_target", "basic", "instrument_attack", "vocals"]
+		},
+		{
+		  "id": "hymn",
+		  "name": "Hymn",
+		  "element": "physical",
+		  "tier": "basic",
+		  "targetType": "single",
+		  "mpCost": 0,
+		  "baseDamage": 32,
+		  "hitRate": 1.0,
+		  "instrumentType": "organ",
+		  "tags": ["physical", "single_target", "basic", "instrument_attack", "organ"]
+		},
+
+		{
+		  "id": "yeah_man",
+		  "name": "Yeah Man",
+		  "element": "physical",
+		  "tier": "minor",
+		  "targetType": "all",
+		  "mpCost": 6,
+		  "baseDamage": 12,
+		  "hitRate": 0.95,
+		  "tags": ["physical", "aoe", "early_game", "shout"]
+		},
+		{
+		  "id": "from_the_top",
+		  "name": "From The Top",
+		  "element": "physical",
+		  "tier": "mid",
+		  "targetType": "single",
+		  "mpCost": 16,
+		  "baseDamage": 18,
+		  "hitRate": 0.90,
+		  "scalesWith": "party_highest_stat",
+		  "tags": ["physical", "single_target", "scaling", "party_stat"]
+		},
+		{
+		  "id": "swing_sang_sung",
+		  "name": "Swing, Sang, Sung",
+		  "element": "physical",
+		  "tier": "mid",
+		  "targetType": "single",
+		  "mpCost": 18,
+		  "baseDamage": 10,
+		  "hitRate": 0.55,
+		  "hitsMin": 3,
+		  "hitsMax": 3,
+		  "critRate": 1.0,
+		  "tags": ["physical", "single_target", "triple_hit", "auto_crit", "risky"]
+		},
+		{
+		  "id": "chop_buster",
+		  "name": "Chop Buster",
+		  "element": "physical",
+		  "tier": "mid",
+		  "targetType": "single",
+		  "mpCost": 10,
+		  "baseDamage": 20,
+		  "hitRate": 0.88,
+		  "statusEffect": {
+		    "type": "muted",
+		    "chance": 0.80
+		  },
+		  "tags": ["physical", "single_target", "mute", "pressure"]
+		},
+		{
+		  "id": "blow",
+		  "name": "Blow",
+		  "element": "physical",
+		  "tier": "minor",
+		  "targetType": "single",
+		  "mpCost": 4,
+		  "baseDamage": 16,
+		  "hitRate": 0.95,
+		  "tags": ["physical", "single_target", "reliable"]
+		},
+		{
+		  "id": "zoot",
+		  "name": "Zoot",
+		  "element": "physical",
+		  "tier": "mid",
+		  "targetType": "single",
+		  "mpCost": 12,
+		  "baseDamage": 22,
+		  "hitRate": 0.40,
+		  "randomStatusChance": 0.50,
+		  "randomStatusPool": ["dragging", "muted", "stank", "polyrhythmic", "out_of_pocket"],
+		  "tags": ["physical", "single_target", "low_accuracy", "random_status"]
+		},
+		{
+		  "id": "crash",
+		  "name": "Crash",
+		  "element": "physical",
+		  "tier": "minor",
+		  "targetType": "single",
+		  "mpCost": 6,
+		  "baseDamage": 10,
+		  "hitRate": 0.90,
+		  "statusEffect": {
+		    "type": "dragging",
+		    "chance": 0.35
+		  },
+		  "tags": ["physical", "single_target", "dragging"]
+		},
+		{
+		  "id": "cool_cat",
+		  "name": "Cool Cat",
+		  "element": "physical",
+		  "tier": "minor",
+		  "targetType": "single",
+		  "mpCost": 6,
+		  "baseDamage": 10,
+		  "hitRate": 0.90,
+		  "statusEffect": {
+		    "type": "impression",
+		    "chance": 0.35
+		  },
+		  "tags": ["physical", "single_target", "impression"]
+		},
+		{
+		  "id": "interlude",
+		  "name": "Interlude",
+		  "element": "physical",
+		  "tier": "heavy",
+		  "targetType": "single",
+		  "mpCost": 18,
+		  "baseDamage": 34,
+		  "hitRate": 0.80,
+		  "tags": ["physical", "single_target", "high_damage"]
+		},
+		{
+		  "id": "tutti",
+		  "name": "Tutti",
+		  "element": "physical",
+		  "tier": "mid",
+		  "targetType": "all",
+		  "mpCost": 22,
+		  "baseDamage": 16,
+		  "hitRate": 0.72,
+		  "hitsMin": 2,
+		  "hitsMax": 2,
+		  "tags": ["physical", "aoe", "double_hit", "ensemble"]
+		},
+		{
+		  "id": "double_time",
+		  "name": "Double Time",
+		  "element": "physical",
+		  "tier": "mid",
+		  "targetType": "single",
+		  "mpCost": 10,
+		  "baseDamage": 14,
+		  "hitRate": 0.98,
+		  "hitsMin": 2,
+		  "hitsMax": 2,
+		  "tags": ["physical", "single_target", "double_hit", "fast", "accurate"]
+		},
+		{
+		  "id": "the_stankface",
+		  "name": "The Stankface",
+		  "element": "physical",
+		  "tier": "mid",
+		  "targetType": "single",
+		  "mpCost": 8,
+		  "baseDamage": 9,
+		  "hitRate": 0.90,
+		  "statusEffect": {
+		    "type": "stank",
+		    "chance": 0.80
+		  },
+		  "tags": ["physical", "single_target", "stank", "nasty"]
+		},
+		{
+		  "id": "ghost_note",
+		  "name": "Ghost Note",
+		  "element": "physical",
+		  "tier": "mid",
+		  "targetType": "single",
+		  "mpCost": 12,
+		  "baseDamage": 12,
+		  "hitRate": 0.85,
+		  "bypassShields": true,
+		  "bypassCounters": true,
+		  "statusEffect": {
+		    "type": "muted",
+		    "chance": 0.75
+		  },
+		  "tags": ["physical", "single_target", "piercing", "mute", "counter_bypass"]
+		},
+		{
+		  "id": "rimshot",
+		  "name": "Rimshot",
+		  "element": "physical",
+		  "tier": "minor",
+		  "targetType": "single",
+		  "mpCost": 8,
+		  "baseDamage": 12,
+		  "hitRate": 0.80,
+		  "critRate": 0.75,
+		  "tags": ["physical", "single_target", "crit_focused"]
+		},
+		{
+		  "id": "screamer",
+		  "name": "Screamer",
+		  "element": "physical",
+		  "tier": "mid",
+		  "targetType": "single",
+		  "mpCost": 10,
+		  "baseDamage": 18,
+		  "hitRate": 0.82,
+		  "statusEffect": {
+		    "type": "rushing",
+		    "chance": 0.60
+		  },
+		  "tags": ["physical", "single_target", "rushing"]
+		},
+		{
+		  "id": "vamp",
+		  "name": "Vamp",
+		  "element": "physical",
+		  "tier": "minor",
+		  "targetType": "single",
+		  "mpCost": 8,
+		  "baseDamage": 8,
+		  "hitRate": 0.90,
+		  "accuracyDebuffPercent": 0.25,
+		  "tags": ["physical", "single_target", "debuff", "accuracy_down"]
+		},
+		{
+		  "id": "the_headhunter",
+		  "name": "The Headhunter",
+		  "element": "physical",
+		  "tier": "severe",
+		  "targetType": "single",
+		  "mpCost": 28,
+		  "baseDamage": 60,
+		  "hitRate": 0.70,
+		  "dispelsPositiveBuffs": true,
+		  "recoilOnMissPercent": 0.15,
+		  "tags": ["physical", "single_target", "dekaja", "recoil"]
+		},
+		{
+		  "id": "glissando",
+		  "name": "Glissando",
+		  "element": "physical",
+		  "tier": "severe",
+		  "targetType": "single",
+		  "mpCost": 34,
+		  "baseDamage": 60,
+		  "hitRate": 0.20,
+		  "accuracyPerEmptyTurnIcon": 0.10,
+		  "bonusDamageChance": 0.50,
+		  "bonusDamageMultiplier": 1.50,
+		  "selfHpCostPercent": 0.50,
+		  "recoilOnMissTurnIcons": 2,
+		  "tags": ["physical", "single_target", "gamble", "turn_icon_scaling"]
+		},
+		{
+		  "id": "free_jazz",
+		  "name": "Free Jazz",
+		  "element": "physical",
+		  "tier": "heavy",
+		  "targetType": "random",
+		  "mpCost": 26,
+		  "baseDamage": 16,
+		  "hitRate": 0.35,
+		  "hitsMin": 1,
+		  "hitsMax": 5,
+		  "randomTargets": true,
+		  "tags": ["physical", "random", "multi_hit", "chaos"]
+		},
+		{
+		  "id": "jam_session",
+		  "name": "Jam Session",
+		  "element": "physical",
+		  "tier": "mid",
+		  "targetType": "all",
+		  "mpCost": 28,
+		  "baseDamage": 14,
+		  "hitRate": 0.40,
+		  "hitsPerTargetMin": 1,
+		  "hitsPerTargetMax": 3,
+		  "tags": ["physical", "aoe", "multi_hit", "inaccurate"]
+		},
+		{
+		  "id": "trading_fours",
+		  "name": "Trading Fours",
+		  "element": "physical",
+		  "tier": "mid",
+		  "targetType": "single",
+		  "mpCost": 24,
+		  "baseDamage": 8,
+		  "hitRate": 0.35,
+		  "hitsMin": 4,
+		  "hitsMax": 4,
+		  "restoreMpOnAllHits": true,
+		  "restoreMpPercent": 1.0,
+		  "tags": ["physical", "single_target", "quad_hit", "mp_recovery"]
+		},
+		{
+		  "id": "last_set",
+		  "name": "Last Set",
+		  "element": "physical",
+		  "tier": "ultimate",
+		  "targetType": "single",
+		  "mpCost": 40,
+		  "baseDamage": 90,
+		  "hitRate": 0.30,
+		  "requiresHpBelowPercent": 0.25,
+		  "instaKillCommon": true,
+		  "tags": ["physical", "single_target", "desperation", "execute"]
+		},
+		{
+		  "id": "modulation",
+		  "name": "Modulation",
+		  "element": "physical",
+		  "tier": "heavy",
+		  "targetType": "single",
+		  "mpCost": 18,
+		  "baseDamage": 40,
+		  "hitRate": 0.35,
+		  "guaranteedHitIfStatus": ["dragging", "rushing"],
+		  "tags": ["physical", "single_target", "conditional_hit"]
+		},
+		{
+		  "id": "the_heckler",
+		  "name": "The Heckler",
+		  "element": "physical",
+		  "tier": "mid",
+		  "targetType": "single",
+		  "mpCost": 14,
+		  "baseDamage": 10,
+		  "hitRate": 0.75,
+		  "statusEffects": [
+		    { "type": "muted", "chance": 0.60 },
+		    { "type": "stank", "chance": 0.60 }
+		  ],
+		  "onMissEnemyAtkUp": true,
+		  "tags": ["physical", "single_target", "risk_reward", "mute", "stank"]
+		},
+		{
+		  "id": "heavy_ensemble",
+		  "name": "Heavy Ensemble",
+		  "element": "physical",
+		  "tier": "severe",
+		  "targetType": "single",
+		  "mpCost": 24,
+		  "baseDamage": 0,
+		  "hitRate": 0.80,
+		  "scalesWith": "max_hp",
+		  "scalePercent": 0.35,
+		  "tags": ["physical", "single_target", "max_hp_scaling"]
+		},
+		{
+		  "id": "grand_finale",
+		  "name": "Grand Finale",
+		  "element": "physical",
+		  "tier": "severe",
+		  "targetType": "all",
+		  "mpCost": 38,
+		  "baseDamage": 0,
+		  "hitRate": 0.68,
+		  "scalesWith": "max_hp",
+		  "scalePercent": 0.40,
+		  "tags": ["physical", "aoe", "max_hp_scaling", "late_game"]
+		},
+		{
+		  "id": "the_lead_sheet",
+		  "name": "The Lead Sheet",
+		  "element": "physical",
+		  "tier": "severe",
+		  "targetType": "single",
+		  "mpCost": 32,
+		  "baseDamage": 60,
+		  "hitRate": 0.88,
+		  "hpCostPercent": 0.20,
+		  "tags": ["physical", "single_target", "reliable_nuke", "high_cost"]
+		},
+		{
+		  "id": "jelly_roll",
+		  "name": "Jelly Roll",
+		  "element": "physical",
+		  "tier": "severe",
+		  "targetType": "all",
+		  "mpCost": 30,
+		  "baseDamage": 0,
+		  "hitRate": 0.82,
+		  "scalesWith": "max_hp",
+		  "scalePercent": 0.35,
+		  "tags": ["physical", "aoe", "max_hp_scaling", "board_clear"]
+		},
+		{
+		  "id": "the_a_train",
+		  "name": "The A Train",
+		  "element": "physical",
+		  "tier": "ultimate",
+		  "targetType": "all",
+		  "mpCost": 40,
+		  "baseDamage": 80,
+		  "hitRate": 0.90,
+		  "selfHpToOne": true,
+		  "statusEffect": {
+		    "type": "stage_fright",
+		    "chance": 1.0
+		  },
+		  "tags": ["physical", "aoe", "desperation", "self_sacrifice"]
+		},
+		{
+		  "id": "isotope",
+		  "name": "Isotope",
+		  "element": "physical",
+		  "tier": "ultimate",
+		  "targetType": "single",
+		  "mpCost": 60,
+		  "baseDamage": 120,
+		  "hitRate": 0.10,
+		  "critRate": 1.0,
+		  "onMissSelfFaint": true,
+		  "statusEffects": [
+		    { "type": "stank", "chance": 1.0 },
+		    { "type": "muted", "chance": 1.0 },
+		    { "type": "dragging", "chance": 1.0 }
+		  ],
+		  "tags": ["physical", "single_target", "all_or_nothing", "ultimate_gamble"]
+		},
+		{
+		  "id": "time_out",
+		  "name": "Time Out",
+		  "element": "physical",
+		  "tier": "minor",
+		  "targetType": "single",
+		  "mpCost": 2,
+		  "baseDamage": 4,
+		  "hitRate": 2.0,
+		  "tags": ["physical", "single_target", "guaranteed_hit", "panic_button"]
+		}
+		
+	  
+	
+	
+  ]
+}

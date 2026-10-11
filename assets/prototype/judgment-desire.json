@@ -1,0 +1,10 @@
+{
+  "id": "test_brass",
+  "name": "TEST BRASS",
+  "identityWeight": 0.5,
+  "cooperationWeight": 0.3,
+  "adaptationWeight": 0.2,
+  "fitThreshold": 0.6,
+  "performanceThreshold": 2,
+  "prototype": true
+}

@@ -1,0 +1,39 @@
+{
+  "id": "jjj",
+  "name": "JJJ",
+  "race": "Trombone",
+  "level": 3,
+  "base_level": 3,
+  "max_skill_level": 7,
+  "hp": 66,
+  "mp": 15,
+  "basicAttack": "blast",
+  "stats": {
+    "str": 4,
+    "vit": 8,
+    "mag": 2,
+    "agi": 7,
+    "luk": 2
+  },
+  "affinities": {
+    "phys": "Resist",
+    "soul": "Weak",
+    "modal": "Neutral",
+    "fusion": "Weak",
+    "bebop": "Neutral",
+    "harmony": "Weak",
+    "dissonance": "Resist"
+  },
+  "battleSkills": [
+    "blast",
+    "blow",
+    "yeah_man"
+  ],
+  "learnableSkills": [
+    {
+      "level": 4,
+      "skill": "the_stankface"
+    }
+  ],
+  "schemaVersion": 1
+}

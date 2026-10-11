@@ -1,0 +1,38 @@
+# Gradle-generated files
+.gradle/
+**/build/
+build/
+
+# Java/Eclipse-generated output
+**/bin/
+out/
+*.class
+
+# Eclipse metadata generated from Gradle
+.project
+.classpath
+.settings/
+.metadata/
+
+# IntelliJ metadata
+.idea/
+*.iml
+
+# Packaged builds
+dist/
+
+# JVM crash files
+hs_err_pid*
+replay_pid*
+
+# Operating-system junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary and backup files
+*.tmp
+*.temp
+*.bak
+*.swp
+*~

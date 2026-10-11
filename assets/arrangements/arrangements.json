@@ -1,0 +1,118 @@
+[
+  {
+    "id": "blue_note",
+    "displayName": "BLUE NOTE",
+    "roles": [
+      "Piano",
+      "Saxophone"
+    ],
+    "initiatorRoles": [],
+    "iconCost": 2,
+    "mpCosts": {
+      "Piano": 3,
+      "Saxophone": 1
+    },
+    "effect": "BLUE_NOTE",
+    "effectFamily": "affinity",
+    "requiredMoves": {
+      "Piano": "modal_motif",
+      "Saxophone": "riff"
+    },
+    "prototype": true,
+    "dualRoleCompatible": false
+  },
+  {
+    "id": "locked_in",
+    "displayName": "LOCKED IN",
+    "roles": [
+      "Bass",
+      "Percussion"
+    ],
+    "initiatorRoles": [],
+    "iconCost": 2,
+    "mpCosts": {
+      "Bass": 2,
+      "Percussion": 2
+    },
+    "effect": "LOCKED_IN",
+    "effectFamily": "protection",
+    "requiredMoves": {},
+    "prototype": true,
+    "dualRoleCompatible": false
+  },
+  {
+    "id": "call_response",
+    "displayName": "CALL & RESPONSE",
+    "roles": [
+      "Trumpet",
+      "Saxophone"
+    ],
+    "initiatorRoles": [
+      "Trumpet"
+    ],
+    "iconCost": 2,
+    "mpCosts": {
+      "Trumpet": 2,
+      "Saxophone": 2
+    },
+    "effect": "CALL_RESPONSE",
+    "effectFamily": "response",
+    "requiredMoves": {
+      "Trumpet": "blast",
+      "Saxophone": "riff"
+    },
+    "prototype": true,
+    "dualRoleCompatible": false
+  },
+  {
+    "id": "walking_solo",
+    "displayName": "WALKING SOLO",
+    "roles": [
+      "Piano",
+      "Bass",
+      "Saxophone"
+    ],
+    "initiatorRoles": [
+      "Piano",
+      "Bass"
+    ],
+    "iconCost": 2,
+    "mpCosts": {
+      "Piano": 2,
+      "Bass": 2,
+      "Saxophone": 0
+    },
+    "effect": "WALKING_SOLO",
+    "effectFamily": "order",
+    "requiredMoves": {
+      "Saxophone": "riff"
+    },
+    "prototype": true,
+    "dualRoleCompatible": false
+  },
+  {
+    "id": "full_chorus",
+    "displayName": "FULL CHORUS",
+    "roles": [
+      "Piano",
+      "Bass",
+      "Saxophone",
+      "Percussion"
+    ],
+    "initiatorRoles": [],
+    "iconCost": 3,
+    "mpCosts": {
+      "Piano": 2,
+      "Bass": 2,
+      "Saxophone": 2,
+      "Percussion": 6
+    },
+    "effect": "FULL_CHORUS",
+    "effectFamily": "suppression",
+    "requiredMoves": {
+      "Percussion": "yeah_man"
+    },
+    "prototype": true,
+    "dualRoleCompatible": true
+  }
+]

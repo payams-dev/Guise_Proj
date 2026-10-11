@@ -1,0 +1,13 @@
+SMOKE capture: 01-title
+SMOKE capture: 02-dungeon
+SMOKE capture: 03-resized-dungeon
+SMOKE capture: 04-party-battle
+SMOKE capture: 05-arrangement-result
+SMOKE capture: 06-book
+SMOKE capture: 07-judgment-preview
+SMOKE capture: 08-third-failure
+SMOKE capture: 09-virtuoso
+SMOKE capture: 10-virtuoso-result
+SMOKE capture: 11-legacy
+DESKTOP_SMOKE_PASS: title, dungeon, resize, encounter, Blue Note, costs/discovery, Book, three Judgment failures, Virtuoso, legacy; packaged assets loaded.
+error: XDG_RUNTIME_DIR is invalid or not set in the environment.
