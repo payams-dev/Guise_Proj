@@ -9,7 +9,7 @@ Developed by **Michael Payams** as an independent, AI-assisted game project. I l
 **Status:** playable mechanics vertical slice, with an implemented cinematic introduction and animated title screen. The interactive paper menu, settings interface, and final dungeon presentation are in development.
 
 ![GROOVE — in-game main menu](screenshots/main-menu-groove.png)
-*In-engine screenshot of the current Java/libGDX prototype, featuring an original Blender-rendered environment. Visuals and interface remain in development.*
+*In-engine screenshot of GUISE's current Java/libGDX title-screen presentation, featuring an original Blender-rendered environment. The interactive paper menu and final presentation remain in development.*
 
 ## Gameplay and presentation
 
