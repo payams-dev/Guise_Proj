@@ -1,5 +1,7 @@
 # GUISE
 
+“The GROOVE is gone. The rhythm is yours to make.”
+
 **A jazz-inspired, first-person dungeon-crawling RPG built in Java with LibGDX.**
 
 GUISE combines the atmosphere of early PlayStation RPGs with grid-based exploration and turn-based combat built around musical roles. Party members form a **Band**, coordinate multi-character **Arrangements**, and generate **Groove** through their actions in combat.
